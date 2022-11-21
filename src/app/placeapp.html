@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+<style>
+  section {
+    background-color: aquamarine;
+  }
+</style>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="position-sticky">
+      <div class="container py-5 h-100">
+        <div class="row justify-content-center align-items-center h-100">
+          <div class="col-12 col-lg-9 col-xl-7">
+            <div class="card shadow-2-strong card-registration background-color : bg-dark text-white"
+              style="border-radius: 15px;">
+              <div class="card-body p-4 p-md-5">
+                <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+                <form action="vapp.html" method = "post">
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+
+                      <div class="form-outline">
+                        <input type="text" id="t1" class="form-control form-control-lg" />
+                        <label class="form-label" for="name">Name</label>
+                      </div>
+
+                    </div>
+                    <div class="col-md-6 mb-4">
+
+                      <div class="form-outline">
+                        <input type="number" id="t2" class="form-control form-control-lg" />
+                        <label class="form-label" for="age">Age</label>
+                      </div>
+
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+
+                      <div class="form-outline">
+                        <input type="text" id="t3" class="form-control form-control-lg" />
+                        <label class="form-label" for="email">Email</label>
+                      </div>
+
+                    </div>
+                    <div class="col-md-6 mb-4">
+
+                      <div class="form-outline">
+                        <input type="number" id="t4" class="form-control form-control-lg" />
+                        <label class="form-label" for="mobile">Mobile No.</label>
+                      </div>
+
+                    </div>
+                  </div>
+
+
+                  <!-- <h6 class="mb-2 pb-1">Gender: </h6>
+    
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                          value="option1" checked />
+                        <label class="form-check-label" for="femaleGender">Female</label>
+                      </div>
+    
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                          value="option2" />
+                        <label class="form-check-label" for="maleGender">Male</label>
+                      </div>
+    
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                          value="option3" />
+                        <label class="form-check-label" for="otherGender">Other</label>
+                      </div> -->
+                  <!-- <div class="form-outline">
+                          <input type="number" id="lastName" class="form-control form-control-lg" />
+                          <label class="form-label" for="lastName">Mobile No.</label>
+                        </div>
+                    </div> -->
+                  <div class="row">
+                    <div class="col-md-11 mb-4">
+
+                      <div class="form-outline">
+                        <input type="text" id="t5" class="form-control form-control-lg" />
+                        <label class="form-label" for="add1">Address Line 1</label>
+                      </div>
+                    </div>
+                    <div class="col-md-11 mb-4">
+                      <div class="form-outline">
+                        <input type="text" id="t6" class="form-control form-control-lg" />
+                        <label class="form-label" for="add2">Address Line 2</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <input type="text" id="t7" class="form-control form-control-lg" />
+                        <label class="form-label" for="city">City</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <input type="text" id="t7" class="form-control form-control-lg" />
+                        <label class="form-label" for="state">State</label>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+
+                      <div class="form-outline">
+                        <input type="text" id="t8" class="form-control form-control-lg" />
+                        <label class="form-label" for="country">Country</label>
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <input type="text" id="t9" class="form-control form-control-lg" />
+                        <label class="form-label" for="pincode">Pincode</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-15 mb-15">
+                      <h6 class="mb-7 pb-7">Trainer Preference : </h6>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t10" value="option1"
+                          checked />
+                        <label class="form-check-label" for="malet">Male Trainer</label>
+                      </div>
+
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t10"
+                          value="option2" />
+                        <label class="form-check-label" for="femalet">Female Trainer</label>
+                      </div>
+
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t10"
+                          value="option3" />
+                        <label class="form-check-label" for="othert">No Prefernece</label>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-15 mb-15">
+                      <h6 class="mb-7 pb-7">Do you need a Physiotherapist</h6>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="i1" id="t11" value="o1"
+                          checked />
+                        <label class="form-check-label" for="yes">Yes</label>
+                      </div>
+
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="i2" id="t11" value="o2">
+                        <label class="form-check-label" for="no">No</label>
+                      </div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <h6 class="mb-7 pb-1">Select a package</h6>
+                      <div class="row">
+                        <div class="col-md-11 mb-15">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t12" value="pk1">
+                            <label class="form-check-label" for="500">One Time Appointment(Rs. 500/-)</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-11 mb-15">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t12" value="pk2">
+                            <label class="form-check-label" for="400">4 sessions per week(Rs. 400/-)</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-11 mb-15">
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="t12" value="pk3">
+                            <label class="form-check-label" for="300">5sessions per week(Rs. 300/-)</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <input type="number" id="t13" class="form-control form-control-lg" />
+                        <label class="form-label" for="week">Weeks</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline">
+                        <input type="number" id="t14" class="form-control form-control-lg" />
+                        <label class="form-label" for="amt">Amount(Rs.)</label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 pt-4">
+                    <script type="text/javascript">
+                      function passengers() {
+                        alert("Your appointment is booked");
+                      }
+                    </script>
+                    <button class="btn btn-primary new-color  w-10 py-3" type="submit" onclick="passengers()" name="b1"
+                      value="submit">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
